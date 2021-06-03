@@ -2,6 +2,7 @@
 
 body {
   font-family: DysonFutura, sans-serif;
+  background-color: gray;
 }
 
 @tailwind base;

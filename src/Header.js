@@ -1,5 +1,5 @@
-import { FaSearch } from 'react-icons/fa'
-import { FaTrashAlt } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+import { FaSearch, FaTrashAlt } from 'react-icons/fa'
 
 function Header(props) {
   return (
@@ -11,47 +11,28 @@ function Header(props) {
       </div>
       <div className="flex justify-around items-center h-16 text-sm text-gray-300 font-light">
         <nav className="flex items-center">
-          <img
-            className="cursor-pointer w-20"
-            src="https://cdn.discordapp.com/attachments/691321186797486100/841246324623671296/Dyson-Embleme.png"
-            alt="dyson logo"
-            onClick={() => props.setPage('homepage')}
-          />
-          <a
-            className="ml-6 cursor-pointer hover:text-white"
-            href="#qui-sommes-nous"
-            onClick={() => props.setPage('introduction')}
-          >
+          <Link to="/">
+            <img
+              className="cursor-pointer w-20"
+              src="https://cdn.discordapp.com/attachments/691321186797486100/841246324623671296/Dyson-Embleme.png"
+              alt="dyson logo"
+            />
+          </Link>
+          <Link to="/about" className="ml-6 cursor-pointer hover:text-white">
             Qui sommes nous
-          </a>
-          <a
-            className="ml-6 cursor-pointer hover:text-white"
-            href="#diagnostic-stratégique"
-            onClick={() => props.setPage('diagnostic')}
-          >
+          </Link>
+          <Link to="/diagnostic" className="ml-6 cursor-pointer hover:text-white">
             Diagnostic stratégique
-          </a>
-          <a
-            className="ml-6 cursor-pointer hover:text-white"
-            href="#segmentation"
-            onClick={() => props.setPage('segmentation')}
-          >
+          </Link>
+          <Link to="/segmentation" className="ml-6 cursor-pointer hover:text-white">
             Segmentation
-          </a>
-          <a
-            className="ml-6 cursor-pointer hover:text-white"
-            href="#stratégie-web"
-            onClick={() => props.setPage('strategie')}
-          >
+          </Link>
+          <Link to="/strategie" className="ml-6 cursor-pointer hover:text-white">
             Stratégie web
-          </a>
-          <a
-            className="ml-6 cursor-pointer hover:text-white"
-            href="#e-contenu"
-            onClick={() => props.setPage('e-contenu')}
-          >
+          </Link>
+          <Link to="/e-contenu" className="ml-6 cursor-pointer hover:text-white">
             E-contenu
-          </a>
+          </Link>
         </nav>
         <div className="flex">
           <span className="border-b border-white cursor-pointer pr-12 pb-1">Rechercher des produits et accesoires</span>

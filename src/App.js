@@ -1,21 +1,42 @@
 import Header from './Header'
-import Homepage from './Homepage'
-import { useState } from 'react'
+import Section from './Section'
+import Home from './Home'
+import About from './About'
+import Diagnostic from './Diagnostic'
+import Segmentation from './Segmentation'
+import Strategie from './Strategie'
+import Econtenu from './Econtenu'
+import Footer from './Footer'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
-  const [page, setPage] = useState('homepage')
   return (
-    <>
-      <Header setPage={setPage} />
+    <Router>
+      <Header />
       <main>
-        {page === 'homepage' ? <Homepage /> : null}
-        {page === 'introduction' ? <Introduction /> : null}
-        {page === 'diagnostic' ? <Diagnostic /> : null}
-        {page === 'segmentation' ? <Segmentation /> : null}
-        {page === 'strategie' ? <Strategie /> : null}
-        {page === 'e-contenu' ? <Econtenu /> : null}
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/diagnostic">
+            <Diagnostic />
+          </Route>
+          <Route path="/segmentation">
+            <Segmentation />
+          </Route>
+          <Route path="/strategie">
+            <Strategie />
+          </Route>
+          <Route path="/e-contenu">
+            <Econtenu />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
       </main>
-    </>
+      <Footer />
+    </Router>
   )
 }
 

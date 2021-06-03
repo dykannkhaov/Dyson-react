@@ -1,13 +1,8 @@
-function Homepage() {
+import Section from './Section'
+
+function Home() {
   return (
-    <section
-      className="w-screen h-screen pt-10 pl-24"
-      style={{
-        backgroundImage: `url("https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/leap-petite-global/products/floorcare/sticks/v15-detect/homepage-banner/00-V15-%20Homepage-hero-CORE-LB.jpg?$responsive$&cropPathE=tablet&fit=stretch,1&fmt=pjpeg&wid=1024")`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: '100% 100%',
-      }}
-    >
+    <Section className="pt-10 pl-24">
       <h3 className="text-3xl">
         <div className="mb-8">
           <span className="font-extrabold mr-2">dyson</span>
@@ -24,8 +19,8 @@ function Homepage() {
         <button className="py-5 px-6 bg-gray-700 text-white mr-3 hover:bg-gray-800">En savoir plus</button>
         <button className="py-5 px-6 bg-green-600 font-semibold hover:bg-green-700">Achetez maintenant</button>
       </div>
-    </section>
+    </Section>
   )
 }
 
-export default Homepage
+export default Home
