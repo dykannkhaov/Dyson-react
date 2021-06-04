@@ -1,5 +1,4 @@
 import Header from './Header'
-import Section from './Section'
 import Home from './Home'
 import About from './About'
 import Diagnostic from './Diagnostic'

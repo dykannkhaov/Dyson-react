@@ -3,7 +3,7 @@ import { FaSearch, FaTrashAlt } from 'react-icons/fa'
 
 function Header(props) {
   return (
-    <header className="bg-black">
+    <header className="bg-black md:bg-white">
       <div className="flex items-center justify-end text-gray-500 text-xs border-b border-gray-700 h-8 pr-20">
         <span className="hover:text-white cursor-pointer">Trouver une boutique</span>
         <span className="ml-8 hover:text-white cursor-pointer">Newsroom</span>
@@ -34,8 +34,10 @@ function Header(props) {
             E-contenu
           </Link>
         </nav>
-        <div className="flex">
-          <span className="border-b border-white cursor-pointer pr-12 pb-1">Rechercher des produits et accesoires</span>
+        <div className="hidden lg:flex">
+          <span className="border-b border-white cursor-pointer pr-12 pb-1 md:hidden lg:block">
+            Rechercher des produits et accesoires
+          </span>
           <FaSearch className="cursor-pointer hover:text-white text-xl" />
           <FaTrashAlt className="text-xl cursor-pointer hover:text-white ml-6" />
         </div>
