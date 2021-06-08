@@ -2,7 +2,7 @@ import { FaTruck, FaStar, FaExchangeAlt, FaEuroSign } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <footer className="pb-2 bg-dark-gray text-gray-300 py-4 md:text-sm text-xs">
+    <footer className="bg-dark-gray text-gray-300 py-4 md:text-sm text-xs">
       <div className="flex justify-evenly">
         <div className="flex mr-1">
           <FaStar className="text-white text-3xl mr-2" />

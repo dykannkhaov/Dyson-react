@@ -1,6 +1,6 @@
 function Segmentation() {
   return (
-    <section className="bg-white w-screen lg:h-screen h-full">
+    <section className="bg-white w-screen lg:h-screen">
       <div className="lg:flex lg:justify-evenly lg:flex-row flex flex-col">
         <div className="pt-2 self-center">
           <img src="https://cdn.discordapp.com/attachments/841347876575379457/841350449340219431/unknown.png" />
