@@ -1,10 +1,14 @@
 function Segmentation() {
   return (
-    <section className="bg-white w-screen h-screen">
-      <div className="flex justify-evenly">
-        <p className="font-light w-1/2 self-center pb-20">
-          <span className="font-semibold italic">Qui sont les buyer-personnas: </span>
-          <br />
+    <section className="bg-white w-screen lg:h-screen h-full">
+      <div className="lg:flex lg:justify-evenly lg:flex-row flex flex-col">
+        <div className="pt-2 self-center">
+          <img src="https://cdn.discordapp.com/attachments/841347876575379457/841350449340219431/unknown.png" />
+        </div>
+        <p className="font-light lg:w-1/2 self-center pb-20 text-sm lg:text-base w-10/12">
+          <span className="lg:inline block text-center font-semibold italic underline border-t border-black pt-2 lg:border-0">
+            Qui sont les buyer-personnas:
+          </span>
           <br />
           Les e-buyers concernent un large public, mais la plupart du temps il s’agit de jeunes couples d’environ 30
           ans, avec une bonne catégorie et un certain pouvoir d’achat. En effet, les produits Dyson ont tout de même un
@@ -21,9 +25,6 @@ function Segmentation() {
           De plus, depuis le confinement, la marque a créé Visite virtuelle sur le site de l’entreprise d’une boutique,
           qui permet de découvrir les produits.
         </p>
-        <div className="pt-2">
-          <img src="https://cdn.discordapp.com/attachments/841347876575379457/841350449340219431/unknown.png" />
-        </div>
       </div>
     </section>
   )

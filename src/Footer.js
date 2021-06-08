@@ -2,9 +2,9 @@ import { FaTruck, FaStar, FaExchangeAlt, FaEuroSign } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <footer className="pb-2 bg-dark-gray text-gray-300 py-4 pb-4 text-sm">
+    <footer className="pb-2 bg-dark-gray text-gray-300 py-4 md:text-sm text-xs">
       <div className="flex justify-evenly">
-        <div className="flex">
+        <div className="flex mr-1">
           <FaStar className="text-white text-3xl mr-2" />
           <ul>
             <li className="text-white">Produits exclusifs</li>
@@ -33,7 +33,7 @@ function Footer() {
           </ul>
         </div>
         <div className="flex">
-          <FaEuroSign className="text-white text-3xl mr-0.5" />
+          <FaEuroSign className="text-white text-2xl mr-1" />
           <ul>
             <li className="text-white">Paiement en 4x sans frais</li>
             <li>Echelonner votre paiement en 4x sans frais</li>

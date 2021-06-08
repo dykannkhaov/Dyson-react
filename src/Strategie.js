@@ -2,8 +2,8 @@ import Section from './Section'
 
 function Strategie() {
   return (
-    <Section className="p-14">
-      <ul className="w-1/2 font-light">
+    <Section className="lg:p-14 p-8 pl-4 lg:h-screen h-full">
+      <ul className="w-1/2 font-light text-sm md:text-base lg:text-base">
         <li>
           Lors du confinement, Dyson a créé une visite virtuelle d’une de ses boutiques, appelée «demo store virtuel»,
           sur la même idée que Google Maps.
