@@ -5,6 +5,10 @@ body {
   background-color: gray;
 }
 
+#hamnav input:checked ~ #hamitems {
+  display: block;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
