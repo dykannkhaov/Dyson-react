@@ -2,7 +2,7 @@ import Section from './Section'
 
 function About() {
   return (
-    <Section className="lg:pt-20 lg:pl-20 md:pt-10 md:pl-10 pt-12 pl-6">
+    <Section className="h-screen lg:pt-20 lg:pl-20 md:pt-10 md:pl-10 pt-12 pl-6">
       <p className="md:text-base w-1/2 font-light text-sm">
         Dyson est une société anglaise d’électroménager, fondée et présidée par James Dyson. <br />
         Les principaux produits de cette entreprise sont des aspirateurs à séparation cyclonique sans sac, des

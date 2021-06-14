@@ -2,7 +2,7 @@ import Section from './Section'
 
 function Strategie() {
   return (
-    <Section className="lg:p-14 p-6 pl-4 h-screen">
+    <Section className="h-screen lg:p-14 p-6 pl-4">
       <ul className="w-1/2 font-light text-sm md:text-base lg:text-base">
         <li>
           Lors du confinement, Dyson a créé une visite virtuelle d’une de ses boutiques, appelée «demo store virtuel»,

@@ -2,7 +2,7 @@ import Section from './Section'
 
 function Home() {
   return (
-    <Section className="md:pl-8 md:pt-12 lg:pt-10 lg:pl-24 pt-16 pl-1">
+    <Section className="h-screen md:pl-8 md:pt-12 lg:pt-10 lg:pl-24 pt-16 pl-1">
       <div className="text-3xl md:mb-4 lg:mb-8 mb-1">
         <span className="font-extrabold mr-2">dyson</span>
         <span className="text-blue-500 font-bold mr-2">v15</span>
