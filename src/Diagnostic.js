@@ -6,9 +6,12 @@ function Diagnostic() {
       <div className="flex lg:flex-row flex-col items-center ">
         <img
           className="lg:pb-16 lg:mr-2"
-          src="https://cdn.discordapp.com/attachments/691321186797486100/841300484718985236/Capture.PNG"
+          src="details.PNG"
+          alt="diagnostic dyson"
         />
-        <img src="https://cdn.discordapp.com/attachments/691321186797486100/841300494025490443/Capture2.PNG" />
+        <img src="concurrence.PNG"
+          alt="concurrence dyson"
+        />
       </div>
     </Section>
   )

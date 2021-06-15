@@ -3,7 +3,9 @@ function Segmentation() {
     <section className="bg-white w-screen lg:h-screen">
       <div className="lg:flex lg:justify-evenly lg:flex-row flex flex-col">
         <div className="self-center pt-2">
-          <img src="https://cdn.discordapp.com/attachments/841347876575379457/841350449340219431/unknown.png" />
+          <img src="https://cdn.discordapp.com/attachments/841347876575379457/841350449340219431/unknown.png"
+            alt="segmentation dyson"
+          />
         </div>
         <p className="font-light lg:w-1/2 self-center pb-20 text-sm lg:text-base w-10/12">
           <span className="lg:inline block text-center font-semibold italic underline border-t border-black lg:border-0 pt-6">

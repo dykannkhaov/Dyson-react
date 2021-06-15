@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import { FaSearch, FaTrashAlt, FaAlignJustify } from 'react-icons/fa'
+import { FaSearch, FaTrashAlt } from 'react-icons/fa'
 import { useEffect, useState } from 'react'
 
 function Nav() {
