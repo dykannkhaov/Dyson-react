@@ -17,6 +17,7 @@ function Nav() {
     return () => {
       window.removeEventListener('resize', closeMenuOnDesktop)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const location = useLocation()
@@ -26,6 +27,7 @@ function Nav() {
     if (isMenuOpen) {
       setIsMenuOpen(false)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location])
 
   return (
